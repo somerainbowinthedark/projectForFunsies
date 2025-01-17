@@ -1,26 +1,23 @@
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class Game {
     public static void main(String[] args) {
 
-        // Create Scanner for collecting user input.
+        printDramaticText("blah blah blah ");
+
         Scanner scanner = new Scanner(System.in);
+           String[] cowboys = new String[]{"Agustin", "TallDust"};
+        System.out.println("Choose a Cowboy: ");
 
-        // Collect character name from user.
-        System.out.print("Name: ");
-        String name = scanner.nextLine();
-
-        // TODO Create Tav instance with user input.
-        // TODO Implement generateMonster()
-        // TODO Collect buffs from user.
-        // TODO Implement roll() method for Tav.
-        // TODO Print Critical Success & Critical Failure.
-        // TODO Check for 3 successful monster encounters.
-        // TODO Print GAME OVER or winning message. 
+        System.out.print("Cowboy: ");
+        String cowyboys = scanner.nextLine();
+        while(!Arrays.asList(cowboys).contains(cowboys.toLowerCase())) {
+            System.out.println(" blah blah blah: ");
         
     }
-
+}
     public static void printDramaticText(String text) {
         // Delay in milliseconds
         int delay = 100;

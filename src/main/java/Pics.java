@@ -1,5 +1,5 @@
 
-public class Ascii {
+public class Pics {
     
     public static void drawD20(int value) {
         if(value > 9) {
