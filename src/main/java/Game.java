@@ -23,7 +23,10 @@ public class Game {
         }
         Cowboy player = new Cowboy(cowfolks);
         player.printCharacterSheet();
-        while(Array.asList(cowfolks).contains("Agustin")){
+        while(Arrays.asList(cowfolks).contains("Agustin")){
+            printDramaticText("blah blah blah ");
+        }
+        while(!Arrays.asList(cowfolks).contains("Agustin") && Arrays.asList(cowfolks).contains("TallDust")){
             printDramaticText("blah blah blah ");
         }
     }
